@@ -15,7 +15,12 @@ import {
   star,
 } from '../assets';
 
-export const navLinks = [
+type TNav = {
+  id: string;
+  title: string;
+};
+
+export const navLinks: TNav[] = [
   {
     id: 'home',
     title: 'Home',
