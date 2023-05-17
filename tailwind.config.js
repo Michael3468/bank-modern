@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+
+// To not lint this file, add to '.eslintignore'
+// **/*.config.js
+
 module.exports = {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   mode: 'jit',
   theme: {
     extend: {
