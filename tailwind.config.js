@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+
+// To not lint this file, add to '.eslintignore'
+// **/*.config.js
+
 module.exports = {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   mode: 'jit',
   theme: {
     extend: {
       colors: {
         primary: '#00040f',
         secondary: '#00f6ff',
-        dimWhite: 'rgba(255, 255, 255, 0.7)',
+        dimWhite: 'rgba(255, 255, 255, 0.5)',
         dimBlue: 'rgba(9, 151, 124, 0.1)',
       },
       fontFamily: {
