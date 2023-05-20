@@ -14,11 +14,15 @@ module.exports = {
         dimWhite: 'rgba(255, 255, 255, 0.5)',
         dimBlue: 'rgba(9, 151, 124, 0.1)',
       },
+      boxShadow: {
+        green: '0px 2px 10px rgba(46,204,113,.5)',
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
     },
     screens: {
+      xxs: '320px',
       xs: '480px',
       ss: '620px',
       sm: '768px',
