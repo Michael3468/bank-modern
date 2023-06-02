@@ -7,8 +7,10 @@ const Testimonials = () => (
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-      <h1 className={`${styles.heading2} max-w-[410px]`}>What people are saying about us</h1>
-      <p className={`${styles.paragraph} max-w-[450px]`}>
+      <h1 className={`${styles.heading2} max-w-[410px] sm:max-w-[450px] text-center sm:text-left`}>
+        What people are saying about us
+      </h1>
+      <p className={`${styles.paragraph} max-w-[450px] text-center sm:text-left`}>
         Everything you need to accept card payments and grow your business anywhere on the planet
       </p>
     </div>
